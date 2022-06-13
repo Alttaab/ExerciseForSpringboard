@@ -2,6 +2,7 @@
 ```javascript
 // Returns a reference to the element by its ID.
 document.getElementById('someid');
+
 2. Select the section with an id of container using querySelector.
 3. Select all of the list items with a class of “second”.
 4. Select a list item with a class of third, but only the list item inside of the ol tag.
