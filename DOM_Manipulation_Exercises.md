@@ -1,7 +1,7 @@
 1. Select the section with an id of container without using querySelector.
 ```javascript
-// Returns a reference to the element by its ID.
-document.getElementById('someid');
+
+document.getElementById('container');
 
 2. Select the section with an id of container using querySelector.
 3. Select all of the list items with a class of “second”.
