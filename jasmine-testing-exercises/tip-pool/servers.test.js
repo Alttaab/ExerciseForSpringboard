@@ -3,13 +3,13 @@ describe("Servers test (with setup and tear-down)", function() {
     serverNameInput.value = 'Alice';
   });
 
-  it('should add a new server to allServers on submitServerInfo()', function () {
+  it('should add new server to allServers on submitServerInfo()', function () {
     submitServerInfo();
     expect(Object.keys(allServers).length).toEqual(1);
     expect(allServers['server' + serverId].serverName).toEqual('Alice');
   });
 
-  it('should create a new update the table to match allServers on updateServerTable()', function () {
+  it('should update the table to match allServers on updateServerTable()', function () {
     submitServerInfo();
     updateServerTable();
     let testServ = document.querySelectorAll('#serverTable tbody tr td')
